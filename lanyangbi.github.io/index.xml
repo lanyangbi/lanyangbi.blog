@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abee</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Abee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 21:51:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog_build_git_page</title>
+      <link>https://example.com/essay/blog_build_git_page/</link>
+      <pubDate>Wed, 20 Jan 2021 21:51:17 +0800</pubDate>
+      
+      <guid>https://example.com/essay/blog_build_git_page/</guid>
+      <description>博客静态页面搭建完成后，接下来就需要发布了。但是还没有自己的服务器和注册域名，如何发布呢？
+这里要感谢 github 提供的 gitHub.io，可以对外发布并展示自己的项目。
+Websites for you and your projects.
+1. 创建 github.io 如果没有账号就先 注册
+登录 github 个人页面，新建仓库
+ 对外发布仓库  注意格式必须为 用户名.github.io，这里的用户名可以通过点击头像 Signed in as xxx 查看
+ 保留博客文件仓库  如果博客文件保留在本地的话，就不需要创建
+创建好仓库后，clone 到本地路径，这个路径自定义
+$ git clone https://github.com/lanyangbi/lanyangbi.blog.git 将创建的所有日志文件全部复制到 blog 目录下
+$ cd blog $ mv * lanyangbi.blog$ git submodule add https://github.com/lanyangbi/lanyangbi.github.io.git 2. 将 Hugo 生成为 html 格式 进入博客目录下，执行
+# -D 代表草稿也进行编译 $ hugo -D 就会在当前目录生成一个 public 目录，生成网页静态文件</description>
+    </item>
+    
+    <item>
+      <title>Hugo｜搭建博客（Themes: Sam）</title>
+      <link>https://example.com/essay/blog_build/</link>
+      <pubDate>Wed, 20 Jan 2021 15:50:14 +0800</pubDate>
+      
+      <guid>https://example.com/essay/blog_build/</guid>
+      <description>Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
+ Hugo 是使用 Go 语言编写的 静态网站生成器，页面编译速度快，支持跨平台、皮肤自定义，方便部署。
+搭建教程，官方教程写的非常详细，下文是我自己的搭建记录，其实都可以不用看了 👀
+1. 安装 使用 Mac Homebrew 进行安装
+# 跳过 brew 检查更新（可以忽略） $ export HOMEBREW_NO_AUTO_UPDATE=true # 开始安装 $ brew install hugo # 出现下面内容就是安装完成了 ==&amp;gt; Summary 🍺 /usr/local/Cellar/hugo/0.55.0: 31 files, 40.6MB 2. 建站 创建一个自定义路径，执行命令
+$ hugo new site quickstart 这样就建立了自己的站点，目录接口如下：
+. ├── archetypes # 存放生成博客的模版 ├── assets # 存放被 Hugo Pipes 处理的文件 ├── config # 配置文件；支持 JSON YAML TOML 三种格式配置文件 ├── content # 存放 markdown 文件 ├── data # 存放 Hugo 处理的数据 ├── layouts # 存放布局文件 ├── static # 存放静态文件 图片 CSS JS文件 └── themes # 存放主题 但是目前无法使用，还需要设置网站主题。</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/about/</link>
+      <pubDate>Wed, 20 Jan 2021 14:40:17 +0800</pubDate>
+      
+      <guid>https://example.com/about/about/</guid>
+      <description> About  第一条 第二条 第三条 第四条 第五条  </description>
+    </item>
+    
+  </channel>
+</rss>

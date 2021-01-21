@@ -1,0 +1,50 @@
+baseurl                  = "https://example.com"           # Your domain name
+languageCode             = "en-us"
+defaultContentLanguage   = "en"
+isMultilingual           = false
+title                    = "Abee"
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "Home 😄"                           # What to call the home page link
+    footerText           = "Call me Abee, a good boy."
+
+# Metadata for Open Graph and Twitter
+    description          = "A new Hugo site."               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Call me Sam"
+    # rss                = ""
+
+[[params.videoBackground.sources]]
+    source  = "sample_video.mp4"
+    type    = "video/mp4"
+    poster  = "background.png"
+[params.videoBackground]
+    # overlay = "rgba(57, 100, 93, 0.4)" # optional
+    overlay = "rgba(0, 0, 0, 0.4)" # optional
+
+[[params.mainMenu]]
+    link = "test_summary"
+    text = "Test Summary"
+
+[[params.mainMenu]]
+    link = "python"
+    text = "Python"
+
+[[params.mainMenu]]
+    link = "essay"
+    text = "Essay"
+
+[[params.mainMenu]]
+    link = "about/about/"
+    text = "Who am I ?"
+
+[imaging]
+    quality = 75
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Abee</title>
+    <link>https://example.com/about/</link>
+    <description>Recent content in Abouts on Abee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 14:40:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/about/</link>
+      <pubDate>Wed, 20 Jan 2021 14:40:17 +0800</pubDate>
+      
+      <guid>https://example.com/about/about/</guid>
+      <description> About  第一条 第二条 第三条 第四条 第五条  </description>
+    </item>
+    
+  </channel>
+</rss>
